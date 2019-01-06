@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">Aususeg</string>
+  <string name="iniciar_sesion">Iniciar Sesión</string>
+  <string name="sesion">Sesión</string>
+  <string name="solo_para_invitados">Solo para Invitados</string>
+  <string name="solo_para_clientes">Solo para Clientes</string>
+  <string name="terminar_sesion">Terminar Sesión</string>
+  <string name="inicio">Inicio</string>
+  <string name="clientes">Clientes</string>
+  <string name="invitados">Invitados</string>
+  <string name="bienvenidos_todos">Bienvenido. En esta página entran todos.</string>
+  <string name="saludos">Saludos.</string>
+  <string name="hola">Hola</string>
+  <string name="cue">Cue</string>
+  <string name="match">Match</string>
+  <string name="iniciar_sesion">Iniciar Sesion</string>
+  <string name="no_has_iniciado_sesion">No has iniciado sesión.</string>
+  <string name="ya_iniciaste_sesion">Ya iniciaste sesión.</string>
+
+  <string name="elimina">Eliminar</string>
+  <string name="cue_descripcion">Cue (5 a 16 letras o dígitos)</string>
+  <string name="match_descripcion">Match (5 a 25 caracteres)</string>
+  <string name="nombre">Nombre</string>
+  <string name="actualizar">Actualizar</string>
+  <string name="confirma_eliminar">Confirma la Eliminación</string>
+  <string name="perderas_datos">Perderás los datos.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto" 
+  style="@style/body" 
+  android:id="@+id/constraintLayout">
+  <android.support.design.widget.CoordinatorLayout style="@style/main" 
+    android:id="@+id/coordinator" 
+    android:tag="coordinator" 
+    app:layout_constraintBottom_toTopOf="@+id/navegacion" 
+    app:layout_constraintLeft_toLeftOf="parent" 
+    app:layout_constraintTop_toTopOf="parent">
+    <TextView style="@style/scroll_responsivo" 
+      android:gravity="center"
+      android:text="@string/bienvenidos_todos"/>
+  </android.support.design.widget.CoordinatorLayout>
+  <include layout="@layout/navegacion" 
+    android:id="@+id/navegacion"/>
+</android.support.constraint.ConstraintLayout>
