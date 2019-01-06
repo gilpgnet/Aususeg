@@ -13,6 +13,6 @@
       android:gravity="center"
       android:text="@string/bienvenidos_todos"/>
   </android.support.design.widget.CoordinatorLayout>
-  <include layout="@layout/navegacion" 
+  <include layout="@layout/form_navegacion" 
     android:id="@+id/navegacion"/>
 </android.support.constraint.ConstraintLayout>

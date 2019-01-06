@@ -1,5 +1,6 @@
 package net.ramptors.aususeg;
 
+import android.content.Intent;
 import android.os.Bundle;
 import net.ramptors.android.GetRespuesta;
 import net.ramptors.android.Respuesta;
@@ -22,7 +23,7 @@ public class CtrlInvitados extends CtrlNavegacion {
           @Override
           public void error(Exception error) {
             muestraError("Error verificando invitado.", error);
-            startActivity(new Intent(this, CtrlIndex.class));
+            startActivity(new Intent(CtrlInvitados.this, CtrlIndex.class));
           }
         });
   }

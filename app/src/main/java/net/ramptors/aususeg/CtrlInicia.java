@@ -1,15 +1,15 @@
-package net.ramptors.aarchyfor;
+package net.ramptors.aususeg;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import net.ramptors.android.FormData;
 import net.ramptors.android.Respuesta;
 import net.ramptors.android.PostForma;
 import static net.ramptors.android.Util.isNullOrEmpty;
 import static net.ramptors.android.Util.texto;
 import static net.ramptors.aususeg.CtrlIndex.URL_SERVICIOS;
-
-import javax.swing.text.View;
 
 public class CtrlInicia extends CtrlNavegacion implements PostForma.Publicado<Respuesta> {
   private final PostForma<Respuesta> sesionInicia = new PostForma<Respuesta>();
@@ -32,6 +32,7 @@ public class CtrlInicia extends CtrlNavegacion implements PostForma.Publicado<Re
 
   @Override
   public void recibe(RespuestaSesion respuesta) {
+    super.recibe(respuesta);
     if (!isNullOrEmpty(respuesta.cue)) {
       muestraMensaje(R.string.ya_iniciaste_sesion);
       startActivity(new Intent(this, CtrlIndex.class));

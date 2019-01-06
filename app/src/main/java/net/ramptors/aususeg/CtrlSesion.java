@@ -1,6 +1,9 @@
-package net.ramptors.aarchyfor;
+package net.ramptors.aususeg;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 import net.ramptors.android.Respuesta;
 import net.ramptors.android.PostForma;
@@ -40,6 +43,7 @@ public class CtrlSesion extends CtrlNavegacion implements PostForma.Publicado<Re
 
   @Override
   public void recibe(RespuestaSesion respuesta) {
+    super.recibe(respuesta);
     if (isNullOrEmpty(respuesta.cue)) {
       muestraMensaje(R.string.no_has_iniciado_sesion);
       startActivity(new Intent(this, CtrlIndex.class));

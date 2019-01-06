@@ -109,6 +109,7 @@ public class Util {
       while (it.hasNext()) {
         sb.append(";").append(it.next().toString());
       }
+      c.setRequestProperty("Cookie", sb.toString());
     }
   }
 

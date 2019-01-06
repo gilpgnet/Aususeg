@@ -42,6 +42,6 @@
       </android.support.v7.widget.LinearLayoutCompat>
     </android.support.v4.widget.NestedScrollView>
   </android.support.design.widget.CoordinatorLayout>
-  <include layout="@layout/navegacion" 
+  <include layout="@layout/form_navegacion" 
     android:id="@+id/navegacion"/>
 </android.support.constraint.ConstraintLayout>

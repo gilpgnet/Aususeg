@@ -1,9 +1,9 @@
-package net.ramptors.aarchyfor;
+package net.ramptors.aususeg;
 
-import java.util.Set;
+import java.util.List;
 import net.ramptors.android.Respuesta;
 
 public class RespuestaSesion extends Respuesta {
   public String cue;
-  public Set<String> roles;
+  public List<String> roles;
 }
